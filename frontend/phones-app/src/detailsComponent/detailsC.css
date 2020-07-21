@@ -1,16 +1,20 @@
 
 .details-view{
     display:grid;
-    grid-template-columns: 20% 60%;
+    grid-template-columns: 1fr 2fr;
 }
 
 .detail-header{
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .detail-header h4{
-    font-size: 5em;
+    font-size: 3em;
     color:#C1C5CE;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .miniature{
@@ -43,6 +47,12 @@
     font-weight: 300;
     font-size: 17px;
     text-transform: none;
+}
+
+.default-text {
+  color: #edf0f5;
+  margin-top: 1em;
+  font-size: 1.5em;
 }
 
 /* 
@@ -102,6 +112,10 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   
+
+  .details-group{
+    width: 100%;
+  }
     .detail-header h4{
         font-size: 3em;
         margin-bottom: 10px;

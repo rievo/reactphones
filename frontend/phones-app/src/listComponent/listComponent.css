@@ -10,7 +10,7 @@ ul{
 }
 
 .details-group{
-    width: 100%;
+    max-width: 50%;
 }
 .item-list{
     text-decoration: none;
@@ -18,9 +18,6 @@ ul{
     list-style: none;
 
     padding: 4px 5px;
-
-
-
 
     border-style: solid;
     border-radius: 10px;
@@ -35,7 +32,12 @@ ul{
     vertical-align: top;
 
     text-align: center;
-    background-color:#C1C5CE;
+    background-color:#edf0f5;
+
+    user-select: none;
+
+    font-weight: 300;
+
 }
 
 

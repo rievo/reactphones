@@ -14,7 +14,7 @@ class DetailsC extends React.Component{
 
         if(phone == undefined){
             return <div>
-                <p>Select a model from the list</p>
+                <p className="default-text">Select a model from the list</p>
             </div>
         }else{
             return <div className="details-group">
